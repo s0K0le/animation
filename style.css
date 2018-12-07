@@ -1,0 +1,26 @@
+.box {
+    height: 100px;
+    background-color: aquamarine;
+}
+
+.js-productsBox--disable {
+  display: none;
+}
+
+.js-productsBox--show {
+    display: block;
+    animation: fade .5s forwards;
+}
+
+.js-productsBox--hide {
+    animation: reverse fade .5s forwards;
+}
+
+ @keyframes fade {
+  from {
+    opacity: 0;
+  }
+   to {
+    opacity: 1;
+  }
+}
