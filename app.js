@@ -23,8 +23,8 @@
                 boxes[currentActiveLink()].classList.replace("js-productsBox--disable", "js-productsBox--show");
             }, 500);
 
-            boxes[previousPosition].classList.add("js-productsBox--hide");
-            // boxes[previousPosition].classList.replace("js-productsBox--show", "js-productsBox--hide");
+            // boxes[previousPosition].classList.add("js-productsBox--hide");
+            boxes[previousPosition].classList.replace("js-productsBox--show", "js-productsBox--hide");
         }
     }
 
