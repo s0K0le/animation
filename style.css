@@ -9,7 +9,7 @@
 
 .js-productsBox--show {
     display: block;
-    animation: fade .5s forwards;
+    animation: fade .5s;
 }
 
 .js-productsBox--hide {
